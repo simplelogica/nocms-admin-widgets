@@ -6,6 +6,8 @@ end
 
 require 'rdoc/task'
 
+require "globalize"
+
 RDoc::Task.new(:rdoc) do |rdoc|
   rdoc.rdoc_dir = 'rdoc'
   rdoc.title    = 'NocmsAdminWidgets'

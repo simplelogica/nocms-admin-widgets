@@ -1,0 +1,7 @@
+<% current ||= nil %>
+<li <%= raw "class='#{widget_listing_item_classes(widget, current).join(' ')}'"%>>
+  <%= link_to widget.slug, edit_widget_path(widget)%>
+  <div class="mo">
+    <%= button_to '', widget_path(widget), method: :delete, class: "ico-mini-delete", title: t('.destroy') %>
+  </div>
+</li>

@@ -1,0 +1,28 @@
+en:
+  no_cms:
+    admin:
+      menu_items:
+        widgets: Widgets
+      widgets:
+        widgets:
+          create:
+            success: "Widget %{slug} has been created"
+            error: "Some error was found and widget %{slug} couldn't be created"
+          destroy:
+            success: "Widget %{slug} has been deleted"
+            error: "Some error was found and widget %{slug} couldn't be deleted"
+          edit:
+            log_messages: "Widget %{slug} loaded for editing"
+            submit: 'Send'
+          new:
+            submit: 'Send'
+          templates:
+            show: Default
+          widget_listing_item:
+            destroy: Remove
+          toolbar_right:
+            submit: Submit
+            visit: Visit
+          update:
+            success: "Widget %{slug} has been updated"
+            error: "Some error was found and widget %{slug} couldn't be updated"

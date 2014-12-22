@@ -1,0 +1,12 @@
+<div id="content_fields">
+  <div class="row">
+    <%= f.label :slug %>
+    <%= f.text_field :slug %>
+  </div>
+</div>
+
+<%= render partial: 'no_cms/admin/blocks/blocks/index', locals: { f: f } %>
+
+<% content_for :ready_js do %>
+ NoCMS.Admin.BlockHandler();
+<% end %>

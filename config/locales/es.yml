@@ -1,0 +1,28 @@
+es:
+  no_cms:
+    admin:
+      menu_items:
+        widgets: Widgets
+      widgets:
+        widgets:
+          create:
+            success: "El widget %{slug} ha sido creado"
+            error: "Se han encontrado algunos errores y el widget %{slug} no ha podido ser creado"
+          destroy:
+            success: "El widget %{slug} ha sido borrado"
+            error: "Se han encontrado algunos errores y el widget %{slug} no ha podido ser borrado"
+          edit:
+            log_messages: "Widget %{slug} cargado para editar"
+            submit: 'Enviar'
+          new:
+            submit: 'Enviar'
+          templates:
+            show: Default
+          widget_listing_item:
+            destroy: Borrar
+          toolbar_right:
+            submit: Guardar
+            visit: Visitar
+          update:
+            success: "El widget %{slug} ha sido actualizado"
+            error: "Se han encontrado algunos errores y el widget %{slug} no ha podido ser actualizado"

@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gem "nocms-widgets", git: 'https://github.com/simplelogica/nocms-widgets.git', branch: 'master'
 gem "nocms-admin", git: 'https://github.com/simplelogica/nocms-admin.git', branch: 'master'
 gem 'nocms-blocks', git: 'https://github.com/simplelogica/nocms-blocks.git', branch: 'master'
-# Declare your gem's dependencies in nocms_admin_widgets.gemspec.
+# Declare your gem's dependencies in nocms-admin-widgets.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
 gemspec
@@ -28,3 +28,5 @@ group :test do
   gem 'database_cleaner'
   gem 'poltergeist'
 end
+
+gem 'globalize'
