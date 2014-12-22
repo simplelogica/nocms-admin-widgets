@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Gem with custom back for nocms-widgets gem"
   s.description = "Gem with custom back for nocms-widgets gem"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "nocms-widgets", '~> 0.0', '>= 0.0.1'
